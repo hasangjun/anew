@@ -10,6 +10,6 @@ db.things.find()
 db.things.insert ({empno:1102, ename:"King"})
 db.things.find()
 
-for(var n=1103; n<=1120; n++) db.thing.save({n:n, m:"test"})
+for(var n=1103; n<=1120; n++) db.things.save({n:n, m:"test"})
 db.things.find()
 it
